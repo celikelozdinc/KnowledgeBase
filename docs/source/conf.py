@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'KnowledgeBase'
+copyright = '2023, Constantinapolis'
+author = 'celikelozdinc'
 
 release = '0.1'
 version = '0.1.0'
