@@ -24,5 +24,14 @@ Secure Copy
    shell$scp -r -C <source> <destination> #compress
    shell$scp -r -c bluefish <source> <destination> #compression algorithm
 
+Enable timestamp in history command
+-----------------------------------
+`Linux Handbook <https://linuxhandbook.com/history-command-timestamp/?ref=lhb-linux-digest-newsletter>`_
+
+.. code-block:: sh
+
+   export HISTTIMEFORMAT="%F %T "
+
+
 .. autosummary::
    :toctree: generated
