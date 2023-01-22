@@ -27,14 +27,16 @@ Linux Cheat Sheet
 4.grep
 ----
 .. code-block:: sh
+
    find . -name "*.txt" -exec grep -i --color "RRC" {} \;
    find . -name "*.txt" -exec grep -i --color "SGNB_RELEASE_INITIATED_BY_SN" {} \;
-   cat <file> | grep -i "pattern" | head -1 # Search for ``"first"`` occurance
-   cat <file> | grep -i "pattern" | tail -1 # Search for ``"last"`` occurance
+   cat <file> | grep -i "pattern" | head -1 # Search for **first** occurrence
+   cat <file> | grep -i "pattern" | tail -1 # Search for **last** occurrence
 
 5.jq
 --
 .. code-block:: sh
+
    jq . --indent 4 File.json
 
 6.Enable timestamp in history command
