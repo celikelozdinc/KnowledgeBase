@@ -1,29 +1,28 @@
 Linux Cheat Sheet
-=====
+=================
 
 .. _linux:
 
 Last Boot Time
-------------
-.. code:: bash
-    who -b
+--------------
+.. code-block:: sh
+
+   shell$who -b
 
 Shutdown with options
-------------
-.. code:: bash
-    shutdown [OPTIONS...] [TIME] [WALL...]
-    sudo shutdown 19:05 "Rebooting for ..."
+---------------------
+.. code-block:: sh
+
+   shell$shutdown [OPTIONS...] [TIME] [WALL...]
+   shell$sudo shutdown 19:05 "Rebooting for ..."
 
 Secure Copy
 ------------
-.. code:: bash
-    scp -r <source> <destination> #for transferring "directories"
-    scp -r -C <source> <destination> #compress
-    scp -r -c bluefish <source> <destination> #compression algorithm
+.. code-block:: sh
 
-New Header
-------------
-$ cat file.txt
+   shell$scp -r <source> <destination> #for transferring "directories"
+   shell$scp -r -C <source> <destination> #compress
+   shell$scp -r -c bluefish <source> <destination> #compression algorithm
 
 .. autosummary::
    :toctree: generated

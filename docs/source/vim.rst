@@ -1,23 +1,24 @@
 VIM Cheat Sheet
-=====
+===============
 
 .. _vim:
 
 VIM Shortcuts
-------------
+--------------
 
 Here are some shortcuts:
 
-.. code:: bash
-    ZZ  #Save current line, close it
+.. code-block:: sh
 
-    s   #Delete the current line, go to ``"insert"`` mode
+   ZZ  #Save current line, close it
 
-    w   #Move 1 word <-
+   s   #Delete the current line, go to ``"insert"`` mode
 
-    b   #Move 1 word ->
+   w   #Move 1 word <-
 
-    yyp #Duplicate current line
+   b   #Move 1 word ->
+
+   yyp #Duplicate current line
 
 .. autosummary::
    :toctree: generated
