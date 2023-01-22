@@ -9,7 +9,7 @@ VIM Shortcuts
 .. code-block:: sh
 
    ZZ  # Save current line, close it
-   s   # Delete the current line, go to **insert mode**
+   s   # Delete the current line, go to insert mode
    w   # Move 1 word <-
    b   # Move 1 word ->
    yyp # Duplicate current line

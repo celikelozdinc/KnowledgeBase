@@ -4,5 +4,10 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "KnowledgeBase"
+description = "All the artefacts"
 authors = [{name = "celikelozdinc", email = "ozdinc.celikel@gmail.com"}]
 dynamic = ["version", "description"]
+
+[project.urls]
+Documentation = "https://readthedocsknowledgebase.readthedocs.io/"
+Source = "https://github.com/celikelozdinc/KnowledgeBase"
