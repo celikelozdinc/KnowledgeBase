@@ -2,6 +2,9 @@
 
 # -- Project information
 
+# At the top.
+import sphinx_bootstrap_theme
+
 project = 'KnowledgeBase'
 copyright = '2023, Constantinapolis'
 author = 'celikelozdinc'
@@ -29,7 +32,10 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+#html_theme = 'sphinx_rtd_theme'
+
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
