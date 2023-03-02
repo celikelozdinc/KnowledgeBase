@@ -13,7 +13,9 @@ gdb Cheat Sheet
 2.Watch
 -------
 .. code-block:: cpp
-     watch <variable> //pause the program if the watched variable has been changed
+
+    watch <variable> //pause the program if the watched variable has been changed
+
 
 .. autosummary::
    :toctree: generated
