@@ -20,5 +20,6 @@ Contents
 
    usage
    api
+   gdb
    linux
    vim
