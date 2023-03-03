@@ -3,11 +3,11 @@ Tools and Plugins
 
 .. _tools:
 
-
 #. Step 1. Example:
 
     .. code-block:: bash
-      Example code
+
+      # Example code
 
 #. Step 2.
 
