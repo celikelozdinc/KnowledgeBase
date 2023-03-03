@@ -23,3 +23,4 @@ Contents
    gdb
    linux
    vim
+   tools
