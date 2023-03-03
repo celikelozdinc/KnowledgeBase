@@ -3,8 +3,9 @@ Tools and Plugins
 
 .. _tools:
 
-#. Step 1. Example:
+#. Step 1.
 
+    Here is example code:
     .. code-block:: bash
 
       # Example code
