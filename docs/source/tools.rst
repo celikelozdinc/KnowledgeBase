@@ -6,6 +6,7 @@ Tools and Plugins
 #. Step 1.
 
     Here is example code:
+
     .. code-block:: bash
 
       # Example code
