@@ -23,4 +23,5 @@ Contents
    gdb
    linux
    vim
+   git
    tools
