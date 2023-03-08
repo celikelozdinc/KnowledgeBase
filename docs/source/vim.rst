@@ -20,6 +20,13 @@ If you open a non-modifiable file with vim
 
    :w !sudo tee %
 
+Search && Replace all occurrences in a particular file
+-------------------------------------------------------
+.. code-block:: sh
+
+   :%s/FileBin/FileTxt/g
+
+
 .. autosummary::
    :toctree: generated
 
