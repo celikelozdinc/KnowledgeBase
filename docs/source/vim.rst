@@ -13,6 +13,12 @@ VIM Shortcuts
    w   # Move 1 word <-
    b   # Move 1 word ->
    yyp # Duplicate current line
+   gg          # Move to start of the first line in the file
+   <number> G  # Move to start of the specific line
+   0           # Move to start of the current line
+   G           # Move to start of the last line in the file
+   A <text>    # Append text after the end of the current line
+   a <txt>     # Append text after the cursor
 
 If you open a non-modifiable file with vim
 -------------------------------------------
