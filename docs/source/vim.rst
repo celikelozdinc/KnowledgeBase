@@ -20,6 +20,11 @@ VIM Shortcuts
    A <text>    # Append text after the end of the current line
    a <txt>     # Append text after the cursor
 
+.. image:: docs/img/move.jpg
+  :width: 400
+  :alt: Move commands
+
+
 If you open a non-modifiable file with vim
 -------------------------------------------
 .. code-block:: sh
