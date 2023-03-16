@@ -52,6 +52,7 @@ Linux Cheat Sheet
 .. code-block:: sh
 
    pgrep testmac
+   pgrep -i FIREFOX #case-insensitive
    ps aux | grep -i "testmac"
 
 8.Redirect to different terminals
