@@ -66,6 +66,7 @@ Tools and Plugins
     #. hstr -> history suggest box
     #. lolcat -> Replacement for cat
     #. Plank -> dock
+    #. WPS Office
     #. trash
         #. alias rm='trash --verbose'
 
