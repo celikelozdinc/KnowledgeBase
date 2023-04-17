@@ -61,6 +61,7 @@ Tools and Plugins
 
     `exa <https://medium.com/javarevisited/exa-is-the-better-ls-grasp-information-faster-on-your-terminal-c7918ff3a5a7>`_
 
+    #. ncdu -> Disk Usage
     #. worklog
     #. aptitude
     #. hstr -> history suggest box
