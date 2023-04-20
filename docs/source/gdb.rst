@@ -35,6 +35,7 @@ gdb Cheat Sheet
 4.Memory Dump
 -------------
 `How to print unique_ptr? <https://medium.com/@steveyang_44123/gdb-how-to-print-pounique-ptr-745e868f0062>`_
+`Investigate on coredump <https://www.cse.unsw.edu.au/~learn/debugging/modules/gdb_coredumps/>`_
 
 .. code-block:: sh
 
