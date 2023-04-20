@@ -25,3 +25,4 @@ Contents
    vim
    git
    tools
+   cpp
