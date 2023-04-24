@@ -71,6 +71,10 @@ Tools and Plugins
     #. trash
         #. alias rm='trash --verbose'
 
+    #. duf -> A better df alternative
+
+    `duf <https://github.com/muesli/duf>`_
+
 #. Sonar offers 3 products
     #. SonarLint
     #. SonarQube

@@ -80,5 +80,13 @@ Linux Cheat Sheet
    # goto build directory
    (cd bin; ./ULAKDU --gtest_filter="")
 
+11.ACL
+-------
+`From Linux Handbook <https://linuxhandbook.com/chattr-command/?ref=lhb-linux-digest-newsletter>`_
+
+.. code-block:: sh
+
+   getfacl File.txt
+
 .. autosummary::
    :toctree: generated
