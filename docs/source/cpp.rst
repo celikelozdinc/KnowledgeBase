@@ -5,6 +5,7 @@ cpp Cheat Sheet
 
 #. Containers
     `push_back vs emplace_back: When to use what? <https://andreasfertig.blog/2023/04/push_back-vs-emplace_back-when-to-use-what/>`_
+    `vector push_back or emplace_back ?? <https://medium.com/@its.me.siddh/modern-c-series-vector-push-back-or-emplace-back-e3a482ab4dcd/>`_
 
 #. Const-correctness
     `References don’t have top-level cv-qualifiers <https://blog.knatten.org/2023/03/17/references-dont-have-top-level-cv-qualifiers/>`_
