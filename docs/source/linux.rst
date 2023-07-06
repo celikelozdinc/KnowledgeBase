@@ -88,5 +88,13 @@ Linux Cheat Sheet
 
    getfacl File.txt
 
+11.awk
+-------
+`Division on wc output <https://www.unix.com/unix-for-dummies-questions-and-answers/222915-division-wc-output.html>`_
+
+.. code-block:: sh
+
+   cat <file.txt> | wc -l | awk '{x=$1/2; print x}'
+
 .. autosummary::
    :toctree: generated

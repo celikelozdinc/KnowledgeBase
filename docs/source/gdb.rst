@@ -20,6 +20,8 @@ gdb Cheat Sheet
 -------
 .. code-block:: sh
 
+    (gdb) set print pretty on
+
     (gdb) p ((archive_ctx*)0x2c606ff4)
 
     (gdb) p (ie->value.u._InitialUEMessage_IEs_id_NAS_PDU->data)
