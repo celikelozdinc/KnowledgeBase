@@ -68,6 +68,7 @@ Tools and Plugins
     #. lolcat -> Replacement for cat
     #. Plank -> dock
     #. WPS Office
+    #. xournalpp -> note-taking software written in C++
     #. trash
         #. alias rm='trash --verbose'
 
