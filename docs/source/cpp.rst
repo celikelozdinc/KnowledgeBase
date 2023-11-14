@@ -13,3 +13,6 @@ cpp Cheat Sheet
 #. std::string_view
     `constexpr static std::string_view <https://lemire.me/blog/2023/04/12/consider-using-constexpr-static-function-variables-for-performance/>`_
 
+
+#. Idioms
+    `copy-swap idiom <http://plepa.com/2016/08/10/kopyala-takas-et-idiyomu-copy-swap-idiom//>`_
