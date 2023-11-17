@@ -101,6 +101,7 @@ Linux Cheat Sheet
 `A beginner's guide to tmux <https://medium.com/pragmatic-programmers/a-beginners-guide-to-tmux-7e6daa5c0154>`_
 
 .. code-block:: sh
+
       creates several pseudo terminals from a single terminal
          (1)Launces a new tmux server
          (2)Creates a default session with a single Window
