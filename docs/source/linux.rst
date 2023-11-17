@@ -96,5 +96,36 @@ Linux Cheat Sheet
 
    cat <file.txt> | wc -l | awk '{x=$1/2; print x}'
 
+12.tmux
+--------
+`A beginner's guide to tmux <https://medium.com/pragmatic-programmers/a-beginners-guide-to-tmux-7e6daa5c0154>`_
+
+.. code-block:: sh
+      creates several pseudo terminals from a single terminal
+         (1)Launces a new tmux server
+         (2)Creates a default session with a single Window
+         (3)Attaches to it
+      
+      Ctrl + B = prefix (can also be customized)
+
+      Detach from tmux session -> prefix + D
+      Split window into 2 panes horizontally -> prefix + %
+      Split window into 2 panes vertically -> prefix + ""
+      Move between panes -> prefix + arrow keys
+      Create new window -> prefix + C
+      Move to next/previous window -> prefix + N/P
+      Move to specific window by number -> prefix + (0,1,2)
+
+      Attach to tmux session  -> tmux attach -t 0 (target session)
+                              -> tmux a -t 0
+
+      Create new sesion -> tmux new -s {SessionName}
+      Enter command mode -> prefix + : (for example, customizing status bar)
+         set -g status-bg magenta #status bar background color
+         set -g window-status-current-style bg=..., fg=... #active window color
+         set -g window-status style bg=... #inactive window color
+         set -g mouse #enabling mouse
+
+
 .. autosummary::
    :toctree: generated
