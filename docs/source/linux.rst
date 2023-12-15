@@ -116,6 +116,7 @@ Linux Cheat Sheet
       Create new window -> prefix + C
       Move to next/previous window -> prefix + N/P
       Move to specific window by number -> prefix + (0,1,2)
+      Rename window name -> prefix + rename-window newname
 
       Attach to tmux session  -> tmux attach -t 0 (target session)
                               -> tmux a -t 0
@@ -126,6 +127,8 @@ Linux Cheat Sheet
          set -g window-status-current-style bg=..., fg=... #active window color
          set -g window-status style bg=... #inactive window color
          set -g mouse #enabling mouse
+         set-option -g status-justify centre
+         set-window-option -g window-status-separator '     '
 
 
 .. autosummary::
