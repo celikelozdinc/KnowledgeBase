@@ -128,7 +128,8 @@ Linux Cheat Sheet
          set -g status-bg magenta #status bar background color
          set status-bg black: Sets the background color of the status bar to black
          setw window-status-current-style fg=yellow
-         set -g window-status-current-style bg=..., fg=... #active window color
+         set -g window-status-current-style bg=...,fg=... #active window color
+         setw -g window-status-current-style fg=black,bg=white
          set -g window-status style bg=... #inactive window color
          set -g mouse #enabling mouse
          set-option -g status-justify centre
