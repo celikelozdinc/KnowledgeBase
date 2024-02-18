@@ -99,6 +99,7 @@ Linux Cheat Sheet
 12.tmux
 --------
 `A beginner's guide to tmux <https://medium.com/pragmatic-programmers/a-beginners-guide-to-tmux-7e6daa5c0154>`_
+`How I Learned TMUX <https://medium.com/@hammad.ai/how-i-learned-tmux-became-a-workflow-ninja-7d33cc796793>`_
 
 .. code-block:: sh
 
@@ -117,6 +118,7 @@ Linux Cheat Sheet
       Move to next/previous window -> prefix + N/P
       Move to specific window by number -> prefix + (0,1,2)
       Rename window name -> prefix + rename-window newname
+      List all windwos -> prefix + w
 
       Attach to tmux session  -> tmux attach -t 0 (target session)
                               -> tmux a -t 0
@@ -124,6 +126,8 @@ Linux Cheat Sheet
       Create new sesion -> tmux new -s {SessionName}
       Enter command mode -> prefix + : (for example, customizing status bar)
          set -g status-bg magenta #status bar background color
+         set status-bg black: Sets the background color of the status bar to black
+         setw window-status-current-style fg=yellow
          set -g window-status-current-style bg=..., fg=... #active window color
          set -g window-status style bg=... #inactive window color
          set -g mouse #enabling mouse
