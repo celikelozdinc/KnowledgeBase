@@ -125,12 +125,21 @@ Linux Cheat Sheet
 
       Create new sesion -> tmux new -s {SessionName}
       Enter command mode -> prefix + : (for example, customizing status bar)
+         # set color for status bar
+         set-option -g status-style bg=colour235,fg=yellow,dim
          set -g status-bg magenta #status bar background color
-         set status-bg black: Sets the background color of the status bar to black
+         set status-bg black  #Sets the background color of the status bar to black
+
+         # set window title list colors
+         set-window-option -g window-status-style fg=brightblue,bg=colour236,dim
+         set -g window-status style bg=... #inactive window color
+         
+         # active window title colors
+         set-window-option -g window-status-current-style fg=brightred,bg=colour236,bright
          setw window-status-current-style fg=yellow
          set -g window-status-current-style bg=...,fg=... #active window color
          setw -g window-status-current-style fg=black,bg=white
-         set -g window-status style bg=... #inactive window color
+         
          set -g mouse #enabling mouse
          set-option -g status-justify centre
          set-window-option -g window-status-separator '     '
