@@ -63,6 +63,7 @@ Linux Cheat Sheet
 
    pgrep testmac
    pgrep -i FIREFOX #case-insensitive
+   pgrep -l teams #process name
    ps aux | grep -i "testmac"
 
 9.Redirect to different terminals
