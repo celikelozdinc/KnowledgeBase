@@ -20,6 +20,7 @@ Linux Cheat Sheet
 --------------
 .. code-block:: sh
 
+   du -sh <source>
    scp -r <source> <destination> # for transferring "directories"
    scp -r -C <source> <destination> # compress
    scp -r -c bluefish <source> <destination> # compression algorithm
