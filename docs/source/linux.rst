@@ -119,6 +119,7 @@ Linux Cheat Sheet
       Move to next/previous window -> prefix + N/P
       Move to specific window by number -> prefix + (0,1,2)
       Rename window name -> prefix + rename-window newname
+                         -> prefix + ,
       List all windwos -> prefix + w
 
       Attach to tmux session  -> tmux attach -t 0 (target session)
