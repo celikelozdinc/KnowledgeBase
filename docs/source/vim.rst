@@ -19,6 +19,8 @@ VIM Shortcuts
    G           # Move to start of the last line in the file
    A <text>    # Append text after the end of the current line
    a <txt>     # Append text after the cursor
+   wq <filename> # Saves current file with name
+   !ls # Executes bash command inside vim
 
 .. image:: docs/img/move.jpg
   :width: 400
