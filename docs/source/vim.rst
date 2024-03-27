@@ -40,6 +40,13 @@ Search && Replace all occurrences in a particular file
 
    :%s/FileBin/FileTxt/g
 
+Open a file
+------------
+.. code-block:: sh
+
+   vim <file> +10       # Put cursor on the nth line
+   vim <file> +R        # Put cursor on the last line
+
 
 .. autosummary::
    :toctree: generated
