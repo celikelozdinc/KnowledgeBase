@@ -69,6 +69,7 @@ Tools and Plugins
     #. Plank -> dock
     #. WPS Office
     #. xournalpp -> note-taking software written in C++
+    #. conky, conky-manager -> customizable widgets for presenting resource usage
     #. trash
         #. alias rm='trash --verbose'
 
