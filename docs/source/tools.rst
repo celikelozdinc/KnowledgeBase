@@ -70,6 +70,9 @@ Tools and Plugins
     #. WPS Office
     #. xournalpp -> note-taking software written in C++
     #. conky, conky-manager -> customizable widgets for presenting resource usage
+    #. asciinema -> recording your terminal
+    #. bat -> syntax highlighter for markup json, yaml files
+    #. ultimate plumber -> explore textual data
     #. trash
         #. alias rm='trash --verbose'
 
