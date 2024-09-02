@@ -125,6 +125,10 @@ Linux Cheat Sheet
 
       Attach to tmux session  -> tmux attach -t 0 (target session)
                               -> tmux a -t 0
+      
+      Ctrl B + [ -> copy mode
+      Ctrl + W -> write to buffer
+      Ctrl B + ] -> paste mode
 
       Create new sesion -> tmux new -s {SessionName}
       Enter command mode -> prefix + : (for example, customizing status bar)
