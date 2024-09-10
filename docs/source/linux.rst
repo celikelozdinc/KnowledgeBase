@@ -8,16 +8,16 @@ Linux Cheat Sheet
 -------------------
 .. code-block:: sh
 
-   who -b
+   uname -m
+   arch
+   lscpu
+   dpkg --print-architecture
 
 1.Last Boot Time
 -----------------
 .. code-block:: sh
 
-   uname -m
-   arch
-   lscpu
-   dpkg --print-architecture
+   who -b
 
 2.Shutdown with options
 ------------------------
