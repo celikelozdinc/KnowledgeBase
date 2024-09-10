@@ -3,11 +3,21 @@ Linux Cheat Sheet
 
 .. _linux:
 
+
+0.HW Architecture
+-------------------
+.. code-block:: sh
+
+   who -b
+
 1.Last Boot Time
 -----------------
 .. code-block:: sh
 
-   who -b
+   uname -m
+   arch
+   lscpu
+   dpkg --print-architecture
 
 2.Shutdown with options
 ------------------------
