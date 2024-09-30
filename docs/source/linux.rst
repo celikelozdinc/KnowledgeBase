@@ -51,6 +51,7 @@ Linux Cheat Sheet
    #Use Grep to find files based on content
    find . -name "*.txt" -exec grep -i --color "RRC" {} \;
    find . -name "*.txt" -exec grep -i --color "SGNB_RELEASE_INITIATED_BY_SN" {} \;
+   find /path/to/search -type f -name "*.sh" -exec chmod +x '{}' +
    cat <file> | grep -i "pattern" | head -1 # Search for first occurrence
    cat <file> | grep -i "pattern" | tail -1 # Search for last occurrence
 
