@@ -6,13 +6,14 @@ Linux Cheat Sheet
 
 0.HW Architecture
 -------------------
+`SSH Config File <https://linuxhandbook.com/ssh-config-file/>`_
+
 .. code-block:: sh
 
    uname -m
    arch
    lscpu
    dpkg --print-architecture
-   `SSH Config File <https://linuxhandbook.com/ssh-config-file/>`_
 
 1.Last Boot Time
 -----------------
