@@ -111,7 +111,15 @@ Linux Cheat Sheet
 
    cat <file.txt> | wc -l | awk '{x=$1/2; print x}'
 
-12.tmux
+12.docker
+----------------------------------
+.. code-block:: sh
+
+   docker builder du
+   docker builder prune
+
+
+13.tmux
 --------
 `A beginner's guide to tmux <https://medium.com/pragmatic-programmers/a-beginners-guide-to-tmux-7e6daa5c0154>`_
 `How I Learned TMUX <https://medium.com/@hammad.ai/how-i-learned-tmux-became-a-workflow-ninja-7d33cc796793>`_
