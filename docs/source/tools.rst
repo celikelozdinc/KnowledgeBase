@@ -80,6 +80,12 @@ Tools and Plugins
 
     `duf <https://github.com/muesli/duf>`_
 
+    #. json utility tool
+
+    `by marabasi <https://github.com/marabesi/json-tool>`_
+
+
+
 #. Sonar offers 3 products
     #. SonarLint
     #. SonarQube
