@@ -93,7 +93,7 @@ Linux Cheat Sheet
 .. code-block:: sh
 
    # goto build directory
-   (cd bin; ./ULAKDU --gtest_filter="")
+   (cd bin; echo $OLDPWD; ./ULAKDU --gtest_filter="")
 
 11.ACL
 -------
