@@ -45,6 +45,8 @@ Linux Cheat Sheet
 
     rsync [-avz] /local/path/file_name user@IP.address:/destination/path/
     rsync -vapz 20230417-061959000.txt ozd@10.213.135.18:/home/ozd/Desktop
+    watch -d "ls -lahtr <dir>" #spot the changes happening to a directory
+
 
 5.grep
 -------
