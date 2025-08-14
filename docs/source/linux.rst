@@ -175,5 +175,13 @@ Linux Cheat Sheet
          set-window-option -g window-status-separator '     '
 
 
+14.java
+--------
+.. code-block:: sh
+
+   sudo update-alternatives --config java
+   dpkg --list | grep -i jdk
+
+
 .. autosummary::
    :toctree: generated
