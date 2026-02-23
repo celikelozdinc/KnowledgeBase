@@ -75,6 +75,7 @@ Tools and Plugins
     #. ultimate plumber -> explore textual data
     #. otree -> Object Tree TUI Viewer
     #. trash
+        
         #. alias rm='trash --verbose'
 
     #. duf -> A better df alternative
