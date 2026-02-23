@@ -73,6 +73,7 @@ Tools and Plugins
     #. asciinema -> recording your terminal
     #. bat -> syntax highlighter for markup json, yaml files
     #. ultimate plumber -> explore textual data
+    
     #. otree -> Object Tree TUI Viewer
     `otree <https://github.com/fioncat/otree>`_
 
