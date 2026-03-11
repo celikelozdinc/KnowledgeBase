@@ -58,6 +58,7 @@ Linux Cheat Sheet
    find /path/to/search -type f -name "*.sh" -exec chmod +x '{}' +
    cat <file> | grep -i "pattern" | head -1 # Search for first occurrence
    cat <file> | grep -i "pattern" | tail -1 # Search for last occurrence
+   ls -lahtr | grep -i "pattern" | awk {'print $9'} | xargs -i mv {} ~/destination
 
 6.jq
 ----
